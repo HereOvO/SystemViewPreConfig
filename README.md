@@ -14,6 +14,10 @@
 
 
 
+需要在main()中包含`#include "SEGGER_SYSVIEW.h"`
+
+
+
 ## 其它文件说明
 
 `RTT-main`,`SystemView-main中存放的是官方提供的最新的使用SystemView时需要移植的文件(2026年1月),其中有一部分是在`SystemViewCroppedVer`中没有使用的,但如果需要使用,可以在目录下找,应该是全的
